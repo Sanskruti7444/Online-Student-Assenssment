@@ -1,0 +1,27 @@
+Name= 
+sanskruti mankar (leader)
+Suyog Shejul
+Shashikant Lavhate
+Shamim Ahemad
+Bhushan More
+Nikhil Anpat
+
+Project name 
+Online assessment management for students 
+
+Business requirements specification
+
+->Institue page will be accessed by director
+->course duration details (start date - end date)
+->faculty details Faculty sign up ,login page
+->student details (id) Student sign up ,login page
+->application form
+->course detailed calendar
+->modulewise duration (calendar contains exam dates)
+->topicwise assignments + attendance + viva + behaviour check(interna parameters)
+->modulewise end exam
+->result(%, grades(first class, distinction), performance (excellent, best, hope for progress), graphs, marks)-> send it to studen, parent, faculty.( if fail re-exam)
+->final exam timetable (CCEE)
+->final exam (coursewise)
+->final exam result 
+->feedback
