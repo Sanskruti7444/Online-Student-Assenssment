@@ -42,10 +42,10 @@ Functional requirements:
       Faculty can logout from page.
       Students can update thier password.
       Faculty can update thier password.
-      Parents can sign up through signup page(firstname,lastname,emailid,studentid,DOB,course_name,batch_name and password).
+      Parents can sign up through signup page(firstname,lastname,emailid and password).
       Parents can login through login page(Emailid and password).
       Only students, parents, teachers and staff can access portal or website.
-      results are shown to students, their respective parents and teachers.
+      Results are shown to students, their respective parents and teachers.
       No student can see any other students exam results.
       Teacher and principal can see any students result and also cumulutive result of student (whole class).
       Admission, result, exam timetable, references to weak topics are shown on portal.
@@ -54,10 +54,11 @@ Functional requirements:
       Exam fees and Institute fees are also collected from portal/ redirected to payment gateways.
       Feedback of students are also taken.
       Feedback of teachers and staff are also taken.
-      visitors can see college information, information of Teacher, placement information, etc.
-      parents will be notified after module end exam.
+      Visitors can see college information, information of Teacher, placement information, etc.
+      Parents will be notified after module end exam.
       Students can ask any question in comment section.
       Students can contact directly teacher via faculty information.
+      All students should be notified of thier exam sheduled.
 
 Non-Functional requirement:
 
@@ -73,9 +74,12 @@ Reliability:
 
 Availability:
   The portal is available for 24X7 alltime.
+  Students can access their details anytime and anywhere from their devices.
+  Parents can access performance of their child anytime and anywhere from their devices.
 
 Maintainance:
   Portal will be maintained by third party company.
+  Developer can update the application as per required.
 
 Portability:
   System will provide portable user interface through which users will be able to access online portal.
