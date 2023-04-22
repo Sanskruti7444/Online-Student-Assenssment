@@ -47,6 +47,7 @@ Feedback of teachers and staff are also taken.
 visitors can see college information, information of Teacher, placement information, etc.
 parents will be notified after module end exam.
 Students can ask any question in comment section.
+Students can contact directly teacher via faculty information.
 
 Non-Functional requirement:
 
