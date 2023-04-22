@@ -50,7 +50,7 @@ Functional requirements:
       Teacher and principal can see any students result and also cumulutive result of student (whole class).
       Admission, result, exam timetable, references to weak topics are shown on portal.
       Student can apply for rechecking of exam.
-      Fain students can apply for re-exam.
+      Fail students can apply for re-exam.
       Exam fees and Institute fees are also collected from portal/ redirected to payment gateways.
       Feedback of students are also taken.
       Feedback of teachers and staff are also taken.
