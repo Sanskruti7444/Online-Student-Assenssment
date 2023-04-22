@@ -11,18 +11,18 @@ Team:
 6)Bhushan More
 
 Objective(Purpose):
-The online assenssment portal will provide complete assenssment for students.
-It will provide virtual dashboard of results of students. All students, teachers and parents
-can assess the portal. students, teachers and parents will be notified of exam results. Result will
-contain %, grades, performance chart, etc. Feedback of students, parents and teachers are also taken.
-online study materials are also provided. After exam students, teachers and parents can track students
-performance. It will give suggestions as per their performance(in which topic they have to improve).
+    The online assenssment portal will provide complete assenssment for students.
+    It will provide virtual dashboard of results of students. All students, teachers and parents
+    can assess the portal. students, teachers and parents will be notified of exam results. Result will
+    contain %, grades, performance chart, etc. Feedback of students, parents and teachers are also taken.
+    online study materials are also provided. After exam students, teachers and parents can track students
+    performance. It will give suggestions as per their performance(in which topic they have to improve).
 
 Scope:
-Online assenssment portal can be assessed by students, teachers and parets. It will show results of 
-every module and will provide dashboard of performance of students. the overall student(all class) performance
-is only seen by teachers and director. students/teachers can change/add their personal details at any time.  
-Portal is only available for registered students only. 
+   Online assenssment portal can be assessed by students, teachers and parets. It will show results of 
+   every module and will provide dashboard of performance of students. the overall student(all class) performance
+   is only seen by teachers and director. students/teachers can change/add their personal details at any time.  
+   Portal is only available for registered students only. 
 
 Definitions:
 	Portal: Peronalized Online Web Application
@@ -34,63 +34,73 @@ Definitions:
 	JS: Javascript
 	
 Functional requirements:
-Only students, parents, teachers and staff can access portal or website.
-results are shown to students, their respective parents and teachers.
-No student can see any other students exam results.
-Teacher and principal can see any students result and also cumulutive result of student (whole class).
-Admission, result, exam timetable, references to weak topics are shown on portal.
-Student can apply for rechecking of exam.
-Fain students can apply for re-exam.
-Exam fees and Institute fees are also collected from portal/ redirected to payment gateways.
-Feedback of students are also taken.
-Feedback of teachers and staff are also taken.
-visitors can see college information, information of Teacher, placement information, etc.
-parents will be notified after module end exam.
-Students can ask any question in comment section.
-Students can contact directly teacher via faculty information.
+      Students can sign up through signup page(firstname,lastname,emailid,studentid,DOB,course_name,batch_name and password).
+      Students can login through login page(Emailid and password).
+      Faculty can sign up through signup page(firstname,lastname,emailid,facultytid,course_name,batch_name and password).
+      Faculty can login through login page(Emailid and password).
+      Student can logout from page.
+      Faculty can logout from page.
+      Students can update thier password.
+      Faculty can update thier password.
+      Parents can sign up through signup page(firstname,lastname,emailid,studentid,DOB,course_name,batch_name and password).
+      Parents can login through login page(Emailid and password).
+      Only students, parents, teachers and staff can access portal or website.
+      results are shown to students, their respective parents and teachers.
+      No student can see any other students exam results.
+      Teacher and principal can see any students result and also cumulutive result of student (whole class).
+      Admission, result, exam timetable, references to weak topics are shown on portal.
+      Student can apply for rechecking of exam.
+      Fain students can apply for re-exam.
+      Exam fees and Institute fees are also collected from portal/ redirected to payment gateways.
+      Feedback of students are also taken.
+      Feedback of teachers and staff are also taken.
+      visitors can see college information, information of Teacher, placement information, etc.
+      parents will be notified after module end exam.
+      Students can ask any question in comment section.
+      Students can contact directly teacher via faculty information.
 
 Non-Functional requirement:
 
 Security:
-Only admitted student can see their performance.
-Principal can access system through authentication.
-Sensitive data will be encrypted across communication.
+   Only admitted student can see their performance.
+   Principal can access system through authentication.
+   Sensitive data will be encrypted across communication.
 
 Reliability:
-System will always take backup periodically.
-No false information will be shown to anyone.
-Results will be shown accurately of that student.
+   System will always take backup periodically.
+   No false information will be shown to anyone.
+   Results will be shown accurately of that student.
 
 Availability:
-The portal is available for 24X7 alltime.
+  The portal is available for 24X7 alltime.
 
 Maintainance:
-Portal will be maintained by third party company.
+  Portal will be maintained by third party company.
 
 Portability:
-System will provide portable user interface through which users will be able to access online portal.
-It can be accessible on mobile, tablet, laptop and PC having any OS.
+  System will provide portable user interface through which users will be able to access online portal.
+  It can be accessible on mobile, tablet, laptop and PC having any OS.
 
 Accessibility:
-Only registered students, staff and parents can access portal.
-principal can view performance of students and teachers on daily, weekly, monthly basis.
+  Only registered students, staff and parents can access portal.
+  principal can view performance of students and teachers on daily, weekly, monthly basis.
 
 Durability:
-System will backup all data.
+  System will backup all data.
 
 Efficiency:
-At the time of result, site will not crash due to load balancing.
-Portal will accept multiple registers and will provide smooth experience irrespective of 
-condition(exam, result).
+  At the time of result, site will not crash due to load balancing.
+  Portal will accept multiple registers and will provide smooth experience irrespective of 
+  condition(exam, result).
 
 Scalability:
-It can hold data about 10,000 student with any security and data threat.
-It can increase its capacity upto 50,000 students.
+  It can hold data about 10,000 student with any security and data threat.
+  It can increase its capacity upto 50,000 students.
 
 Safety:
-portal will be secured from any hacking.
-It is protected from outside with proper firewall fuctionalities.
-Student data will be backed up periodically.
+  portal will be secured from any hacking.
+  It is protected from outside with proper firewall fuctionalities.
+  Student data will be backed up periodically.
 
 Analysis:
 	Actors:
