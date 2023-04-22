@@ -59,6 +59,7 @@ Functional requirements:
       Students can ask any question in comment section.
       Students can contact directly teacher via faculty information.
       All students should be notified of thier exam sheduled.
+      System will present dashboard for student, teachers, parents, staff, principle as well as BOD.
       
       
 
