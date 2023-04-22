@@ -59,6 +59,8 @@ Functional requirements:
       Students can ask any question in comment section.
       Students can contact directly teacher via faculty information.
       All students should be notified of thier exam sheduled.
+      
+      
 
 Non-Functional requirement:
 
@@ -88,6 +90,7 @@ Portability:
 Accessibility:
   Only registered students, staff and parents can access portal.
   principal can view performance of students and teachers on daily, weekly, monthly basis.
+  If exam stopped due to power failure, student can log in again and can resume exam.
 
 Durability:
   System will backup all data.
