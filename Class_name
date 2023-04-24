@@ -1,1 +1,13 @@
+classes-
 
+person - {student,  faculty, parent, visitor} 
+exam 
+result
+setting
+institute 
+feedback
+timetable
+payment
+re-checking
+comment section
+security - accessibility, availability
