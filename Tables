@@ -1,0 +1,16 @@
+Database connction
+
+List of tables and its attributes
+      
+       signup database for students
+   1)  create table students
+     (student_id int primary key auto_increament,firstname varchar(20), lastname varchar(20), mobile_no varchar(12) not null,email           varchar (40),address varchar(100), password varchar(20) not null);
+
+      signup database for parents
+  2) create table parents
+      (id int,firstname varchar(20),lastname varchar(20), mobile varchar(12) not null, email varchar(40)  foreign key id       references                   students(student_id));
+
+  3)  create table login
+       (login_id int , username varchar(40),password varchar(20) );
+  
+  4) create table institute (insti_name varchar(50), insti_address varchar(50) );
